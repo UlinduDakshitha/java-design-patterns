@@ -15,8 +15,9 @@ public class Main {
 
         Button button = factory.createButton();
         Checkbox checkbox = factory.createCheckbox();
-
+        TextBox textbox = factory.createTextBox();
         button.paint();
         checkbox.paint();
+        textbox.paint();
     }
 }

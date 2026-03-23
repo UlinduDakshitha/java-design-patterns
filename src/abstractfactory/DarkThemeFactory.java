@@ -9,4 +9,7 @@ public class DarkThemeFactory implements GUIFactory {
     public Checkbox createCheckbox() {
         return new DarkCheckbox();
     }
+    public TextBox createTextBox() {
+        return new DarkTextbox();
+    }
 }

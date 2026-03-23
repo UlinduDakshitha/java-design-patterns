@@ -9,4 +9,7 @@ public class LightThemeFactory implements GUIFactory {
     public Checkbox createCheckbox() {
         return new LightCheckbox();
     }
+    public TextBox createTextBox() {
+        return new LightTextbox();
+    }
 }
